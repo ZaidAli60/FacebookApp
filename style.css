@@ -163,21 +163,26 @@
 
 
   @media  screen and (max-width: 700px){
-      nav ul li#space1,
-      nav ul li#space2{
-          display: none;
-      }
-      nav ul{
-          min-width: 600px;
-          padding: 8px 12px;
-        justify-content: space-between;
-      }
-      :root{
-          --btn-width-100: 60px;
-      }
-  }
+    /* nav ul li#space1,
+    nav ul li#space2{
+        display: none;
+    } */
+    /* nav ul{
+        min-width: 600px;
+        padding: 8px 12px;
+      justify-content: space-between;
+    } */
+    :root{
+        --btn-width-100: 40px;
+    }
+}
 
- 
+@media  screen and (max-width: 600px){
+  button{
+      display: none;
+  }
+  
+}
   /* navgition Bar end */
 
 
@@ -405,6 +410,32 @@
 
 
 
+@media only screen and (max-width:900px) {
+    .Left-sidebar {
+            display: none;
+     }
+    
+ }
+ @media only screen and (max-width:830px) {
+    .right-sidebar{
+        display: none;
+    } 
+   
+  
+ }
+
+ @media only screen and (max-width:630px) {
+    .main-contant{
+        /* width: 100%; */
+        width: 500px;
+    }
+ }
+ @media only screen and (max-width:500px) {
+    .main-contant{
+        /* width: 100%; */
+        width: 500px;
+    }
+ }
 
 
 
